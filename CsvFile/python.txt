@@ -1,0 +1,3 @@
+name,department,birthday month  
+Parker,Accounting,November  
+Smith,IT,October
