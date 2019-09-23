@@ -55,9 +55,15 @@ print(hex(id(a))) #to print the loc of mem allocation
 
 price = [ 10, 20, 30, 40, 50]
 
+cart = ['fruits','electronics','items']
+
 print(price[-1])
 print(price[3])
 print(price[0:2])
+print(price[::3]) #it takes step value
+
+combined = price + cart
+
 price.append(33)
 print(price)
 print(price.count(60)) # returns true or false if value exists returns 1(true)
