@@ -66,7 +66,7 @@ combined = price + cart
 
 price.append(33)
 print(price)
-print(price.count(60)) # returns true or false if value exists returns 1(true)
+print(price.count(60))  
 
 #changing the value of list
 price[0] = 60
@@ -79,3 +79,59 @@ len(list1)
 print(max(list1))
 print(min(list1))
 
+
+
+list1 = [ '2','5', '1', '3','1','5','1','5' ]
+
+# print(list1.count('1')) #returns the count of value, the value how many times is repeated! o/p: 3
+
+# print(list1.index('5')) #returns the index value of the '5' in list 
+
+# list1.append('3')  # adding new value to the list
+
+# list1.remove('5') # removing the value 
+
+# del(list1[:]) #deletes the whole values in list 
+
+# del(list1)
+# # print(list1)
+
+# list1.clear()  # removes the all the items from list
+
+# print(list1)
+
+# for x in list1:
+#     print(x)
+ 
+# print(list1)
+
+
+""" tuples """
+# tuples are imuteable in python that mean item in obj cannot be changed
+
+tuple1 = ('hello','worl')
+
+# print(tuple1.index('you'))
+
+# tuple1 = list1
+# print(tuple1[0])
+# print(hex(id(tuple1))) # prints in memory
+# print(type(tuple1))
+# print(len(list1))
+
+""" dictionary """
+# dict are muteable in python that you can chage value of obj in dict
+# cannot access the index value it throws key val err
+
+fruits = { 'apple': 50, 'grape':30, 'orange':40, 'kiwi':25 , 1: 56}
+fruits['apple'] = 100  # can change the val 
+print(fruits[1] )
+
+# fruits.keys()
+# fruits[0] #throws key err: 0 dosen't exists   
+# print(fruits.keys())
+# print(fruits.values())
+
+# for x in fruits:
+ 
+#     print(x)
