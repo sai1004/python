@@ -35,7 +35,6 @@ print(5 ** 3) # 5 * 5 * 5 = 125
 
 # """"""""""""""""" Comparision Operator """""""""""""""""""""""
 
-x,y,z = 11,22,33
 
 a = 10 
 b = 20 
@@ -127,3 +126,12 @@ print(id(b))  #|
 print(a is b)
 
 print(a is not b)
+
+
+
+# """""""""""""""""""""" Chained comparision operator """""""""""""""""""""""
+
+a,b,c = 10,20,30
+
+print(a < b < c)
+print(a == b < c)
