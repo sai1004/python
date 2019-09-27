@@ -114,8 +114,10 @@ print(60 in list1)
 
 # """""""""""""""""""""""" identity operator """""""""""""""""""""""
 
-a = 10 
+# is
+# is not
 
+a = 10 
 b = 10 
 
 
