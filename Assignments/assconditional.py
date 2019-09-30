@@ -14,7 +14,10 @@ if (n1 >= n2 ) and ( n1 >= n3):
 elif (n2 >= n1 ) and (n2 >= n3):
     max = n2
 print("The Largest Number between Three Numbers is", max)
-# 3) Take 10 inputs from the user as Number
+
+
+# 3) Take 10 inputs from the user as Number and do sum of all ten numbers and 
+#    get avg of sum, also write if statement 
 
 userInput = input('Please Enter the Numbers :')
 
