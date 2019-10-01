@@ -29,3 +29,15 @@ for i in list1:
         oddList.append(i)
 sumOdd = sum(oddList)
 print('The Sum Of Odd Numbers in List is: '+ str(sumOdd))
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+""" print factorial Num of Input """
+
+#  using math module 
+import math
+Num = input("Please Enter Number:")
+
+print(math.factorial(Num))
+
+
