@@ -7,7 +7,7 @@ sumOfList1 = sum(list1)
 
 avgList1 = (sumOfList1 * 20) / 100
 
-print(avgList1)
+print('The Avg Numbers Of the List is: '+ str(avgList1))
 
 
 # add all even from a list , print sum of all even numbers
@@ -18,7 +18,7 @@ for i in list1:
     if i % 2 == 0:    # reminder of item (i) is equals to 0 then print value of item
         evenList.append(i)
 sumEven = sum(evenList)
-print(sumEven)
+print('The Sum Of Even Numbers in List is: '+ str(sumEven))
 
 # """""""""""""""""" add all odd from a list , print sum of all odd numbers  """""""""""""""""""""""""""
 
@@ -28,4 +28,4 @@ for i in list1:
     if i % 2 == 1:   # reminder of item (i) is equals to 1 then print value of item
         oddList.append(i)
 sumOdd = sum(oddList)
-print(sumOdd)
+print('The Sum Of Odd Numbers in List is: '+ str(sumOdd))
