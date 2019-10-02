@@ -33,3 +33,9 @@ email = 'example@domain.com'
 emailSplited = email.split('@')[0]
 
 print(emailSplited)
+
+""" end keyword """
+
+test = "hello "
+
+print(test, end =" world ")
