@@ -89,3 +89,31 @@ while counter <= 5:
     print()
     counter = counter + 1
 
+""" List Comprehense: """
+
+
+
+city = "New Delhi"
+
+listCityChar = []
+
+for letter in city:
+    listCityChar.append(letter)
+
+print(listCityChar)
+
+
+city = "New Delhi"
+
+lCity = [ch for ch in city ]
+
+print(lCity)
+
+lNum = [n for n in range(2, 21)]
+print(lNum)
+
+lEven = [n for n in range(2, 21, 2)]
+print(lEven)
+
+
+
