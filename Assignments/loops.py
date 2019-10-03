@@ -67,4 +67,48 @@ for i in range(1, 6):
     print("")
     
     
+ 
+# print charcters names along with lenth of char in list
+
+city = [ 'paris', 'New Delhi', 'Goa', 'MumBai', 'New York']
+
+
+for i in city:
+    print(i , 'char length is:', len(i))
+    
+
+ 
+
+
+#A, E, I, O
+
+strin = 'NEw Delhi'
+lst = []
+
+for i in strin:
+    print(i)
+    lst.append(i)
+print(lst)
+
+
+
+vowels =  ['A', 'E', 'I', 'O']
+
+if strin == "'A','E','I','O'":
+    print(strin)
+    
+    
+    
+# ASSIGNMENT On 30TH Sep 19:
+# print th square of all numbers from 0 to 10.
+
+for i in range(0,11):
+    i **= 2
+    print(i)
+    
+    
+    
+    
+    
+    
 
