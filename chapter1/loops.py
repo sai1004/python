@@ -115,5 +115,8 @@ print(lNum)
 lEven = [n for n in range(2, 21, 2)]
 print(lEven)
 
+lEven = [x for x in [n for n in range(2, 21, 2)][0:5]]
+print(lEven)
 
-
+nNum = [n for n in range(2, 21) if n%2==0]
+print(nNum)
