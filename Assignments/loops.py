@@ -59,13 +59,23 @@ else:
 
 for i in range(1, 6):
     print('* ' * i)
-    
+ 
+#========================================
     
 for i in range(1, 6):
     for j in range(0,i):
         print(i, end = " ")
     print("")
     
+# =====================================
+k = 0
+
+for i in range(1,6):
+    j = k
+    for k in range(j,j+i):
+        print(k, "", end=" ")
+    k +=1
+    print("")
     
  
 # print charcters names along with lenth of char in list
@@ -77,7 +87,7 @@ for i in city:
     print(i , 'char length is:', len(i))
     
 
- 
+#=======================================================
 
 
 #A, E, I, O
