@@ -126,6 +126,31 @@ while i in range(0,11):
 
 # Note: In Python argument lists are passed by reference to the function, they are not copied! Make sure you don’t
 # modify the original lists of the caller.
+
+L1 = [0,10,30,40,50]
+L2 = [60,33,-55,-44,-22]
+
+def merge(L1,L2):
+    L = []
+    sorting = L1 + L2
+    while sorting:
+        minimum = sorting[0]
+        for x in sorting:
+            if x < minimum:
+                minimum = x
+        L.append(minimum)
+        sorting.remove(minimum)
+
+    return L
+
+print(merge(L1,L2))
+
+
+
+
+
+
+
     
 # ASSIGNMENT On 30TH Sep 19:
 # print th square of all numbers from 0 to 10.
