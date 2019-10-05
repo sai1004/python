@@ -36,7 +36,7 @@ print('The Sum Of Odd Numbers in List is: '+ str(sumOdd))
 
 #  using math module 
 import math
-num = input("Please Enter Number:")
+num = int(input("Please Enter Number:"))
 
 print(math.factorial(num))
 
@@ -66,5 +66,5 @@ for i in range(1, 6):
         print(i, end = " ")
     print("")
     
-    
+
 
