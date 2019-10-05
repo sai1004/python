@@ -96,7 +96,7 @@ for i in city:
 
 #Problem 6: write a program that extracts only +ive numbers from a list.
  
- numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
+numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
 
 for x in numbers:
     if x > 0:
@@ -108,12 +108,13 @@ for x in numbers:
 #using for loop
 for i in range(0,11):
     multiply = 4 * i
-    print('4 multiplied by '+ str(x) +" is "+ str(multiply))
+    print('4 multiplied by '+ str(i) +" is "+ str(multiply))
 
 # using While loop
 while i in range(0,11):
     multiply = 4 * i
-    print('4 multiplied by '+ str(x) +" is "+ str(multiply))
+    print('4 multiplied by '+ str(i) +" is "+ str(multiply))
+    i += 1
     
     
     
@@ -160,9 +161,10 @@ for i in range(0,11):
     i **= 2
     print(i)
     
+
+
     
-    
-    
+
     
     
 
