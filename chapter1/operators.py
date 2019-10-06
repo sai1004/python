@@ -96,6 +96,20 @@ print(a)
 
 # print((10 > 9 ) and ( 50 > 40))
 
+x = 10
+y = 15
+
+z = (x < y) and (y > x)
+print(z)
+
+w = y > x / 2 and x < y 
+print(w)
+
+# not operator
+
+print(not (x > 20 > y))
+
+
 
 
 """"""""""""""""""" membership oprators """""""""""""""""""""
@@ -135,3 +149,6 @@ a,b,c = 10,20,30
 
 print(a < b < c)
 print(a == b < c)
+
+
+
