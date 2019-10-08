@@ -29,3 +29,6 @@ print(fa.seek(0))
 print(fa.read())
 
 
+# Can also use Slicing method
+
+print(fa.read()[0:5])
