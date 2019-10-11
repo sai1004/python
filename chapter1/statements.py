@@ -82,3 +82,13 @@ fav_nums = { 'eric': 17, 'dona': 4 }
 
 for number in fav_nums.values():
     print( str(number) + ' is a fav')
+    
+    
+a = 10
+b =1
+
+if a !=b:
+    print('True')
+else:
+    print('False')
+    
