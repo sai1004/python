@@ -64,3 +64,13 @@ def add_to(element, target=None):
         target = []
     target.append(element)
     return target
+
+
+def callme(*args,**kargs):
+    for key in args:
+        print(key)
+    for value in kargs:
+        print(value)
+
+
+callme('1st parameter','2nd parameter')
