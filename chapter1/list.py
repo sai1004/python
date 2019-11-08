@@ -142,3 +142,9 @@ print(fruits[1] )
 # for x in fruits:
  
 #     print(x)
+
+"""  enumerate """ 
+
+my_list = ['apple', 'banana', 'grapes', 'pear']
+for c, value in enumerate(my_list, 1):
+    print(c, value)

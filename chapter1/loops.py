@@ -120,3 +120,17 @@ print(lEven)
 
 nNum = [n for n in range(2, 21) if n%2==0]
 print(nNum)
+
+
+
+# Assume backet is under the tap , filling backet with water , count the backets while filling,
+# and off the tap when backet is filled 3 backets .
+
+count = 0
+while True:
+    backet = int(input("Enter The Current Backet Filled Number:"))
+    count = backet
+    print(count)
+    if count >= 3:
+        print('Tap is offed Limit exhausted')
+        break
