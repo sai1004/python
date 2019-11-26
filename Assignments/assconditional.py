@@ -40,9 +40,8 @@ elif avg >= 60:
 
 else:
     print(' The Perfomance is bad, You Need To Try Hard ')
-    
-    
-    
+
+
 # if there are more than 4 members in room then increase the AC Temp to 10 degs
 # room
 # AC
@@ -52,7 +51,7 @@ AC = 16
 room = 0
 members = int(input('please Enter the Members in room: '))
 room = members
-if room >=4:
+if room >= 4:
     AC = 10
     print(AC)
 else:
