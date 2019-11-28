@@ -74,3 +74,33 @@ def callme(*args,**kargs):
 
 
 callme('1st parameter','2nd parameter')
+
+
+
+plainText = 'Hello I\'m the king'
+
+
+def encrypt(string):
+    cipher = []
+    reSpace = string.replace(' ', '')[::-1]
+    for char in reSpace:
+        codes = ord(char)
+        cipher.append(codes + 1)
+    return cipher
+
+
+print(encrypt(plainText))
+
+
+def decrypt():
+    deCipher = ''
+
+    decCodes = encrypt(plainText)
+    for code in decCodes:
+        chars = chr(code - 1)
+        deCipher += chars
+    return deCipher[::-1]
+
+
+print(decrypt())
+
