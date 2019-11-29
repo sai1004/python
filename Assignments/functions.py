@@ -16,3 +16,7 @@ numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
 for j in numbers:
     if j >= 0:
         print(j)
+
+
+# admin = input("Enter the Elements: ")
+# list(admin)  # converts tupple to list as array

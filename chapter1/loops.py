@@ -1,9 +1,7 @@
-"""  for loops  """
+""" ============================  for loops ==================================== """
 
 
-
-
-""" While Loops """
+""" ============================ While Loops ====================================== """
 
 #  prints 0 - 10 numbers in one line without breaking line:
 
@@ -11,19 +9,18 @@ n = 0
 while n < 10:
     print(n, end=" ")
     n = n + 1
-    
+
 #  prints 0 - 10 numbers in one line with breaking line:
 
 n = 0
 while n <= 10:
     n += 1
     print(n)
-      
-      
+
 
 # print first ten even numbers
 
-#   using two var: 
+#   using two var:
 n = 2
 i = 1
 while i <= 10:
@@ -33,13 +30,13 @@ while i <= 10:
 
 #   using only one var:
 
-n = 0 
+n = 0
 
 while n <= 20:
     n += 2
     print(n)
-    
-    
+
+
 # KeyWords: break, continue, pass
 
 # print 0-10 break where n == 5, stops at 5
@@ -47,21 +44,21 @@ while n <= 20:
 n = 0
 
 while n <= 10:
-    n +=1
+    n += 1
     if n == 5:
         break
     print(n)
-    
+
 # print 0-10 continue where n == 5, continue at 6
 
 
 n = 1
 while n <= 10:
     if n == 5:
-        n +=1
+        n += 1
         continue
     print(n, end=" ")
-    n +=1
+    n += 1
 
 
 # print 0-10 pass where n == 5, pass
@@ -70,12 +67,12 @@ n = 1
 
 while n <= 10:
     if n == 5:
-        print( n ** 2, end=" ")
+        print(n ** 2, end=" ")
         pass
     else:
 
         print(n, end=" ")
-    n +=1
+    n += 1
 
 # ==================================
 
@@ -84,13 +81,12 @@ counter = 1
 while counter <= 5:
     n = 1
     while n <= counter:
-        print("Hello", end=" " )
+        print("Hello", end=" ")
         n += 1
     print()
     counter = counter + 1
 
-""" List Comprehense: """
-
+""" ===================== List Comprehense: ============================== """
 
 
 city = "New Delhi"
@@ -105,7 +101,7 @@ print(listCityChar)
 
 city = "New Delhi"
 
-lCity = [ch for ch in city ]
+lCity = [ch for ch in city]
 
 print(lCity)
 
@@ -118,9 +114,8 @@ print(lEven)
 lEven = [x for x in [n for n in range(2, 21, 2)][0:5]]
 print(lEven)
 
-nNum = [n for n in range(2, 21) if n%2==0]
+nNum = [n for n in range(2, 21) if n % 2 == 0]
 print(nNum)
-
 
 
 # Assume backet is under the tap , filling backet with water , count the backets while filling,

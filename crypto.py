@@ -66,7 +66,10 @@ class Encryptor:
 
 key = b'[EX\xc8\xd5\xbfI{\xa2$\x05(\xd5\x18\xbf\xc0\x85)\x10nc\x94\x02)j\xdf\xcb\xc4\x94\x9d(\x9e'
 enc = Encryptor(key)
-clear = lambda: os.system('cls')
+
+
+def clear(): return os.system('cls')
+
 
 if os.path.isfile('data.txt.enc'):
     while True:
@@ -100,7 +103,8 @@ if os.path.isfile('data.txt.enc'):
 else:
     while True:
         clear()
-        password = str(input("Setting up stuff. Enter a password that will be used for decryption: "))
+        password = str(
+            input("Setting up stuff. Enter a password that will be used for decryption: "))
         repassword = str(input("Confirm password: "))
         if password == repassword:
             break

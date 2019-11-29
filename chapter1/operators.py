@@ -5,66 +5,66 @@
 
 
 # """"""""""""" Arithmetic Oprator """""""""""""""
-        #  Operators: + ,- ,*, / ,//, **, %
+#  Operators: + ,- ,*, / ,//, **, %
 
 a = 10
-b = 20 
-c = 10 
+b = 20
+c = 10
 
 print(a + b)
-print( a - b)
-print( b - c )
-print( c * b * a)
-print( a*b/2*25//3)
+print(a - b)
+print(b - c)
+print(c * b * a)
+print(a*b/2*25//3)
 
 
-print( 10 / 5 )   # rturns float value
-print( 10 // 5 )  #retruns int value
+print(10 / 5)   # rturns float value
+print(10 // 5)  # retruns int value
 
-print( 5 / 2 )
-print( 5 // 2 )
+print(5 / 2)
+print(5 // 2)
 
-print( 7 // 3 )
-print( 5 // 2 )
+print(7 // 3)
+print(5 // 2)
 
-5  
+5
 
-print(5 % 2) #returns remainder of 5/2
+print(5 % 2)  # returns remainder of 5/2
 
-print(5 ** 3) # 5 * 5 * 5 = 125
+print(5 ** 3)  # 5 * 5 * 5 = 125
 
 # """"""""""""""""" Comparision Operator """""""""""""""""""""""
 
 
-a = 10 
-b = 20 
-c = 10 
+a = 10
+b = 20
+c = 10
 
 print(a == c)
-print( a == b )
+print(a == b)
 
 print(a != b)
-print( a != c)
+print(a != c)
 
-print( 10 == 10)
-print( 10 > 11 )
+print(10 == 10)
+print(10 > 11)
 
-print( 10 >= 10 )
-print( 20 <= 20 )
+print(10 >= 10)
+print(20 <= 20)
 
 
-# """""""""""""""""""""""" assignment operators """""""""""""""""""" 
+# """""""""""""""""""""""" assignment operators """"""""""""""""""""
 
 # =, +=, -=, *=, /=, %=, //=, **=
-# 
-# (a = a + 10)  is equal to (a += 10) 
-a=20
+#
+# (a = a + 10)  is equal to (a += 10)
+a = 20
 a += 100
 print(a)
 
 a *= 2
 print(a)
-  
+
 
 # """"""""""""""""""""" bitwise Operators """""""""""""""""""""""""""""
 
@@ -80,7 +80,7 @@ print(a)
 
 # hexadecimal -> 0-9,a,b,c,d,e,f;
 # decimal -> 0-9      (2309)base 10;
-# octal -> 0-7 
+# octal -> 0-7
 # binary -> 0 1
 
 # a = 10 # 0001 0000
@@ -88,8 +88,8 @@ print(a)
 
 # """""""""""""""""""" Logic Operators """""""""""""""""""""""
 
-# and, or, not 
-         #F             #F       = FALSE
+# and, or, not
+# F             #F       = FALSE
 # print((10 > 20) and ( 30 > 40))
 
 # print((10 > 20) or ( 30 > 40))
@@ -102,7 +102,7 @@ y = 15
 z = (x < y) and (y > x)
 print(z)
 
-w = y > x / 2 and x < y 
+w = y > x / 2 and x < y
 print(w)
 
 # not operator
@@ -110,16 +110,14 @@ print(w)
 print(not (x > 20 > y))
 
 
-
-
 """"""""""""""""""" membership oprators """""""""""""""""""""
 
 
-# in 
+# in
 
-# not in 
+# not in
 
-list1 = [ 20, 30, 40 , 50 ]
+list1 = [20, 30, 40, 50]
 
 print(60 not in list1)
 print(60 in list1)
@@ -130,25 +128,21 @@ print(60 in list1)
 # is
 # is not
 
-a = 10 
-b = 10 
+a = 10
+b = 10
 
 
-print(id(a))  #| memory location stores as same value so the output will true
-print(id(b))  #|
+print(id(a))  # | memory location stores as same value so the output will true
+print(id(b))  # |
 
 print(a is b)
 
 print(a is not b)
 
 
-
 # """""""""""""""""""""" Chained comparision operator """""""""""""""""""""""
 
-a,b,c = 10,20,30
+a, b, c = 10, 20, 30
 
 print(a < b < c)
 print(a == b < c)
-
-
-

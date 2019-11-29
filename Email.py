@@ -14,14 +14,14 @@ Subject: Sending SMTP e-mail
 
 This is test e-mail message.
 
-"""%(sender_mail, receivers_mail)
+""" % (sender_mail, receivers_mail)
 
 
 try:
-    # smtpObj = smtplib.SMTP('localhost') 
-    password = input('Enter the password')  
-    smtpObj = smtplib.SMTP('zoho.com',465)  
-    smtpObj.login(sender_mail,password)  
+    # smtpObj = smtplib.SMTP('localhost')
+    password = input('Enter the password')
+    smtpObj = smtplib.SMTP('zoho.com', 465)
+    smtpObj.login(sender_mail, password)
     smtpObj.sendmail(sender_mail, receivers_mail, message)
     print("Successfully sent email")
 except Exception:
