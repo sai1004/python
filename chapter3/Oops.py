@@ -1,3 +1,28 @@
+'''
+OOPs Concepts:
+
+    Object
+    Class
+    Method
+    Inheritance
+    Polymorphism
+    Data Abstraction
+    Encapsulation
+
+
+'''
+
+
+
+''' Class and Objects '''
+
+
+
+''' Constructor '''
+
+
+
+
 
 ''' inheritence '''
 
