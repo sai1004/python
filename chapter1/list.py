@@ -112,6 +112,7 @@ list1 = ['2', '5', '1', '3', '1', '5', '1', '5']
 
 # print(list1)
 
+# list() function
 
 """ ================================ tuples =============================== """
 # tuples are imuteable in python that mean item in obj cannot be changed
@@ -125,6 +126,8 @@ tuple1 = ('hello', 'worl')
 # print(hex(id(tuple1))) # prints in memory
 # print(type(tuple1))
 # print(len(list1))
+
+# set() funtion
 
 """ =============================== dictionary ========================== """
 # dict are muteable in python that you can chage value of obj in dict
@@ -142,6 +145,8 @@ print(fruits[1])
 # for x in fruits:
 
 #     print(x)
+
+# dict() function
 
 """ =========================== enumerate ================================== """
 
