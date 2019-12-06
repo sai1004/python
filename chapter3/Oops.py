@@ -15,13 +15,6 @@ OOPs Concepts:
 
 ''' Class and Objects '''
 
-
-''' Constructor '''
-
-
-''' inheritence '''
-
-
 class Animal:
     def speak(self):
         print("Animal Speaking")
@@ -43,4 +36,11 @@ o/p:
 
 dog barking
 Animal Speaking
+
 '''
+
+''' Constructor '''
+
+
+''' inheritence '''
+

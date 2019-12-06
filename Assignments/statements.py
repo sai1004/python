@@ -1,7 +1,7 @@
-ASSIGNMENT 1
-Get the user input about the current position of the employee and his performance grade.
-Performance cutoff is 90 % if the performance is moRe than 90 % promote him.
-If not degrade him.
+# ASSIGNMENT 1
+# Get the user input about the current position of the employee and his performance grade.
+# Performance cutoff is 90 % if the performance is moRe than 90 % promote him.
+# If not degrade him.
 
 # input 10,20,30,92,40,5,6,70
 

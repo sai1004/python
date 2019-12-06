@@ -64,46 +64,19 @@ num = input("enter nums")
 add_to(num)
 
 
-def add_to(element, target=None):
-    if target is None:
-        target = []
-    target.append(element)
-    return target
+# def add_to(element, target=None):
+#     if target is None:
+#         target = []
+#     target.append(element)
+#     return target
 
 
-def callme(*args, **kargs):
-    for key in args:
-        print(key)
-    for value in kargs:
-        print(value)
+# def callme(*args, **kargs):
+#     for key in args:
+#         print(key)
+#     for value in kargs:
+#         print(value)
 
 
-callme('1st parameter', '2nd parameter')
+# callme('1st parameter', '2nd parameter')
 
-
-plainText = 'Hello I\'m the king'
-
-
-def encrypt(string):
-    cipher = []
-    reSpace = string.replace(' ', '')[::-1]
-    for char in reSpace:
-        codes = ord(char)
-        cipher.append(codes + 1)
-    return cipher
-
-
-print(encrypt(plainText))
-
-
-def decrypt():
-    deCipher = ''
-
-    decCodes = encrypt(plainText)
-    for code in decCodes:
-        chars = chr(code - 1)
-        deCipher += chars  # equals to deCipher + deCipher = chars
-    return deCipher[::-1]
-
-
-print(decrypt())
