@@ -20,3 +20,16 @@ for j in numbers:
 
 # admin = input("Enter the Elements: ")
 # list(admin)  # converts tupple to list as array
+
+person = {
+    'name': 'sam',
+    'email': 'sam@example.com',
+    'mobile': 123456789,
+    'gender': 'male'
+}
+
+print(person)
+
+for k, v in person.items():
+
+    print(k, ' --> ', v)
