@@ -9,7 +9,7 @@ for i in range(10):
     print(i ** 2, end=" ")
 
 
-# ==================================
+# ===============================================
 colors = ['red', 'green', 'blue', 'yellow']
 
 
@@ -29,15 +29,15 @@ for color in colors:
 
 """ old way """
 
-# for i in range(len(colors)-1, -1, -1):
-#     print(colors[i])
+for i in range(len(colors)-1, -1, -1):
+    print(colors[i])
 
 """ New way """
 
 for color in reversed(colors):
     print(color)
 
-
+# =========================================================
 """ Looping Over a Collection and Indicies. """
 
 
