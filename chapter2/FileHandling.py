@@ -1,4 +1,4 @@
-""" =============================== File Open Write (Over Writes) Mode ========================== """
+""" =============================== File Open Write Mode (Over Writes)========================== """
 
 fw = open('demo.txt', 'w')
 
@@ -32,3 +32,5 @@ print(fa.read())
 # Can also use Slicing method
 
 print(fa.read()[0:5])
+
+fa.close()
