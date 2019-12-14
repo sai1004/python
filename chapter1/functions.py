@@ -60,8 +60,8 @@ def add_to(num, target=[]):
     return target
 
 
-num = input("enter nums")
-add_to(num)
+# num = input("enter nums")
+# add_to(num)
 
 
 # def add_to(element, target=None):
@@ -80,3 +80,24 @@ add_to(num)
 
 # callme('1st parameter', '2nd parameter')
 
+""" Convert Decimal to binary """
+
+
+# def decToBin(ip):
+
+#     binary = ''
+
+#     divIp = ip.split()
+#     print(divIp)
+
+
+# print(decToBin('192.168.31.1'))
+
+
+ip = '192.168.31.1'
+
+divIp = ip.split('.')
+
+for i in divIp:
+    print(bin(int(i)).replace("0b", ''), end='.')
+     

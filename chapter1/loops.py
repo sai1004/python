@@ -1,7 +1,19 @@
-""" ============================  for loops ==================================== """
+""" ================================  for loops ===================================== """
+
+for i in range(0, 11):  # range(start,stop,step) stop = n - 1
+    print(i)
+
+for i in range(1, 11):
+    print(i ** 2)
 
 
-""" ============================ While Loops ====================================== """
+colors = ['red', 'green', 'blue', 'yellow']
+
+for color in colors:
+    print(color)
+
+
+""" =============================== While Loops ====================================== """
 
 #  prints 0 - 10 numbers in one line without breaking line:
 
