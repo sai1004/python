@@ -43,19 +43,6 @@ else:
     print(" Ticket For Age Less Than 18: {}".format(ticketPrice))
 
 
-# <======================= Dicitionaries ===================>
-
-alien = {'color': 'green', 'points': 5}
-
-# assigining a value
-
-print("The alien's Color is " + alien['color'])
-
-# adding new key-value pair
-
-alien['from'] = 'UFO'
-
-print(alien)
 
 
 # <-====================== user Input ====================>
@@ -68,20 +55,6 @@ pi = input('What is the value of PI ?')
 pi = float(pi)
 if pi != 3.14159265:
     print('wrong')
-
-# <========================= looping through all key-value pairs ======================>
-
-fav_nums = {'eric': 17, 'dona': 4}
-
-for name, number in fav_nums.items():
-    print(name + ' loves ' + str(number))
-
-# looping through all the values
-
-fav_nums = {'eric': 17, 'dona': 4}
-
-for number in fav_nums.values():
-    print(str(number) + ' is a fav')
 
 
 a = 10
