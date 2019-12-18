@@ -15,6 +15,7 @@ OOPs Concepts:
 
 ''' Class and Objects '''
 
+
 class Animal:
     def speak(self):
         print("Animal Speaking")
@@ -26,9 +27,9 @@ class Dog(Animal):
         print("dog barking")
 
 
-d = Dog()
-d.bark()
-d.speak()
+dog = Dog()
+dog.bark()
+dog.speak()
 
 
 '''
@@ -43,4 +44,3 @@ Animal Speaking
 
 
 ''' inheritence '''
-
