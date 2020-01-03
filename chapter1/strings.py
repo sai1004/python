@@ -1,4 +1,3 @@
-# https://pysnakeblog.blogspot.com/2019/09/top-40-python-string-processing-in.html?m=1
 # """ dealing with strings """
 
 # city = 'New York'  # length of the string is 8 the length key word start reads from 1 to end not from 0, so consider n-1
@@ -226,3 +225,6 @@ print('Mount Whitney is Located at {latitude}°N , and {longitude}°W'.format(
 
 point = (5, 10)
 print('The point values are {0[0]} and {0[1]}'.format(point))
+
+
+print(f"{point}")

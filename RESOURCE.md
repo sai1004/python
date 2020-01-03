@@ -1,1 +1,0 @@
-https://pysnakeblog.blogspot.com/2019/11/webscraping-json-data-using-python.html
