@@ -12,3 +12,15 @@ tuple1 = ('hello', 'worl')
 # print(len(list1))
 
 # set() funtion
+
+# profile1 = {
+#     "name":"kiarn",
+#     "email":"kiran@gmail.com"
+# }
+
+# profile2 = {
+#         "name":"sam",
+#     "email":"sammy@gmail.com"
+# }
+
+
