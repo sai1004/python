@@ -130,3 +130,16 @@ print(list1)
 my_list = ['apple', 'banana', 'grapes', 'pear']
 for count, value in enumerate(my_list, 1):
     print(count, '-->', value)
+
+
+lst = [{
+    "name": "sam",
+    "email": "sammy@gmail.com"
+}, {
+    "name": "kiarn",
+    "email": "kiran@gmail.com"
+}]
+
+
+for i in lst:
+    print(i)
