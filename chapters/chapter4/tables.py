@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from prettytable import PrettyTable
-    
+
 x = PrettyTable()
 
 x.field_names = ["City name", "Area", "Population", "Annual Rainfall"]
