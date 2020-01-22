@@ -1,4 +1,4 @@
-# <=============================== if statements==========================>
+""""""""""""""""""""""""" if statements """""""""""""""""""""""""
 
 # conditional tests
 x = 42
@@ -43,9 +43,7 @@ else:
     print(" Ticket For Age Less Than 18: {}".format(ticketPrice))
 
 
-
-
-# <-====================== user Input ====================>
+""""""""""""""""""""""""" user Input  """""""""""""""""""""""""
 
 name = input('Whats Your Name?')
 

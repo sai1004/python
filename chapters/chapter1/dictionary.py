@@ -1,4 +1,4 @@
-""" Dictionary: A Python dict Obj is an unordered collection of data in a key-value pair """
+""""""""""""""""""""""""" Dictionary: A Python dict Obj is an unordered collection of data in a key-value pair """""""""""""""""""""""""
 
 
 # dict are muteable in python that you can chage value of obj in dict
@@ -43,7 +43,7 @@ print(total)
 
 
 
-# <======================= Dicitionaries ===================>
+""""""""""""""""""""""""" Dicitionaries  """""""""""""""""""""""""
 
 alien = {'color': 'green', 'points': 5}
 
@@ -58,7 +58,7 @@ alien['from'] = 'UFO'
 print(alien)
 
 
-# <========================= looping through all key-value pairs ======================>
+""""""""""""""""""""""""" looping through all key-value pairs """""""""""""""""""""""""
 
 fav_nums = {'eric': 17, 'dona': 4}
 

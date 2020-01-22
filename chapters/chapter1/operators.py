@@ -4,7 +4,7 @@
 # 2. Floor division, with // operator
 
 
-# """"""""""""" Arithmetic Oprator """""""""""""""
+""""""""""""""""""""""""" Arithmetic Oprator """""""""""""""""""""""""
 #  Operators: + ,- ,*, / ,//, **, %
 
 a = 10
@@ -33,7 +33,7 @@ print(5 % 2)  # returns remainder of 5/2
 
 print(5 ** 3)  # 5 * 5 * 5 = 125
 
-# """"""""""""""""" Comparision Operator """""""""""""""""""""""
+""""""""""""""""""""""""" Comparision Operator """""""""""""""""""""""""
 
 
 a = 10
@@ -53,7 +53,7 @@ print(10 >= 10)
 print(20 <= 20)
 
 
-# """""""""""""""""""""""" assignment operators """"""""""""""""""""
+""""""""""""""""""""""""" assignment operators """""""""""""""""""""""""
 
 # =, +=, -=, *=, /=, %=, //=, **=
 #
@@ -65,8 +65,7 @@ print(a)
 a *= 2
 print(a)
 
-
-# """"""""""""""""""""" bitwise Operators """""""""""""""""""""""""""""
+""""""""""""""""""""""""" bitwise Operators """""""""""""""""""""""""
 
 
 # & (binary AND)
@@ -86,7 +85,7 @@ print(a)
 # a = 10 # 0001 0000
 # b = 20 # 0010 0000
 
-# """""""""""""""""""" Logic Operators """""""""""""""""""""""
+""""""""""""""""""""""""" Logic Operators """""""""""""""""""""""""
 
 # and, or, not
 # F             #F       = FALSE
@@ -110,7 +109,7 @@ print(w)
 print(not (x > 20 > y))
 
 
-""""""""""""""""""" membership oprators """""""""""""""""""""
+""""""""""""""""""""""""" membership oprators """""""""""""""""""""""""
 
 
 # in
@@ -122,8 +121,7 @@ list1 = [20, 30, 40, 50]
 print(60 not in list1)
 print(60 in list1)
 
-
-# """""""""""""""""""""""" identity operator """""""""""""""""""""""
+""""""""""""""""""""""""" identity operator """""""""""""""""""""""""
 
 # is
 # is not
@@ -140,7 +138,7 @@ print(a is b)
 print(a is not b)
 
 
-# """""""""""""""""""""" Chained comparision operator """""""""""""""""""""""
+""""""""""""""""""""""""" Chained comparision operator """""""""""""""""""""""""
 
 a, b, c = 10, 20, 30
 
