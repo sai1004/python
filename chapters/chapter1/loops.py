@@ -1,4 +1,4 @@
-""" ================================  for loops ===================================== """
+""""""""""""""""""""""""" for loops """""""""""""""""""""""""
 
 for i in range(0, 11):  # range(start,stop,step) stop = n - 1
     print(i)
@@ -13,7 +13,7 @@ for color in colors:
     print(color)
 
 
-""" =============================== While Loops ====================================== """
+""""""""""""""""""""""""" While Loops """""""""""""""""""""""""
 
 #  prints 0 - 10 numbers in one line without breaking line:
 
@@ -98,7 +98,7 @@ while counter <= 5:
     print()
     counter = counter + 1
 
-""" ===================== List Comprehense: ============================== """
+""""""""""""""""""""""""" List Comprehense: """""""""""""""""""""""""
 
 
 city = "New Delhi"

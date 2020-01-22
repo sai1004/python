@@ -1,4 +1,4 @@
-""" ================================ tuples =============================== """
+""""""""""""""""""""""""" tuples """""""""""""""""""""""""
 # tuples are imuteable in python that mean item in obj cannot be changed
 
 tuple1 = ('hello', 'worl')
@@ -22,5 +22,3 @@ tuple1 = ('hello', 'worl')
 #         "name":"sam",
 #     "email":"sammy@gmail.com"
 # }
-
-

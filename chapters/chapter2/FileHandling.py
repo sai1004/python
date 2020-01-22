@@ -1,4 +1,4 @@
-""" =============================== File Open Write Mode (Over Writes)========================== """
+""""""""""""""""""""""""" File Open Write Mode (Over Writes """""""""""""""""""""""""
 
 fw = open('demo.txt', 'w')
 
@@ -6,7 +6,7 @@ print(fw.write('hey hi'))
 
 fw.close()
 
-""" =================================== File Open Read Mode ======================================== """
+""""""""""""""""""""""""" File Open Read Mode """""""""""""""""""""""""
 fr = open('demo.txt', 'r')
 
 print(fr.read())
@@ -19,7 +19,7 @@ print(fr.read())
 
 fr.close()
 
-""" =============================== File Open Append (Update) Mode =============================== """
+""""""""""""""""""""""""" File Open Append (Update) Mode """""""""""""""""""""""""
 
 fa = open('demo.txt', 'a+')
 fa.write('this line is appended')

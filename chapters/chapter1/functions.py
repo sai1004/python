@@ -29,7 +29,7 @@ def merge(L1, L2):
 print(merge(L1, L2))
 
 
-"""" ==========================  args and **kwargs ========================= """
+""""""""""""""""""""""""" args and **kwargs  """""""""""""""""""""""""
 
 # 1.1. Usage of *args
 
@@ -80,7 +80,7 @@ def add_to(num, target=[]):
 
 # callme('1st parameter', '2nd parameter')
 
-""" Convert Decimal to binary """
+""""""""""""""""""""""""" Convert Decimal to binary """""""""""""""""""""""""
 
 
 # def decToBin(ip):
@@ -100,4 +100,3 @@ divIp = ip.split('.')
 
 for i in divIp:
     print(bin(int(i)).replace("0b", ''), end='.')
-     

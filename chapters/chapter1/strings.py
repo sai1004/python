@@ -1,4 +1,4 @@
-# """ dealing with strings """
+""""""""""""""""""""""""" dealing with strings """""""""""""""""""""""""
 
 # city = 'New York'  # length of the string is 8 the length key word start reads from 1 to end not from 0, so consider n-1
 
@@ -13,7 +13,7 @@
 # # in String empty space is also considered as index value it returns empty value
 # print(city[3])
 
-# # <================ slicing the string ==================>
+""""""""""""""""""""""""" slicing the string """""""""""""""""""""""""
 # # in slice method in the box(arry) the value 0 [start , end, step]
 # print(city[0:8:2])
 
@@ -70,7 +70,7 @@ print(a+b+c+d+e)
 # breaking the line
 print(a+'\n'+b+'\n'+c+'\n'+d+'\n'+e)
 
-# ===========================  string mainpulation ===============================
+"""""""""""""""""""""""""  string mainpulation """""""""""""""""""""""""
 
 # _5 string indexing and manipulating (subscript notation)
 # string index starts from 0

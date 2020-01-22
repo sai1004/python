@@ -17,7 +17,7 @@ print(lastBike)
 for bike in bikes:
     print(bike)
 
-""" CRUD Ops in List """
+""""""""""""""""""""""""" CRUD Ops in List """""""""""""""""""""""""
 
 # adding items to a list
 
@@ -48,7 +48,7 @@ for x in range(1, 11):
     squares.append(x**2)
 print(squares)
 
-# <======================= slicing the list =======================>
+# '''''''''''''''''''''''''''' slicing the list ''''''''''''''''''''''''''''
 
 finishers = ['sam', 'bob', 'amanda', 'linda']
 
@@ -97,7 +97,7 @@ lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 print(lst[::-1])
 
-# ========================================
+# ''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 list1 = ['2', '5', '1', '3', '1', '5', '1', '5']
 
@@ -125,7 +125,7 @@ for x in list1:
 print(list1)
 
 
-""" =========================== enumerate ================================== """
+""""""""""""""""""""""""" enumerate """""""""""""""""""""""""
 
 my_list = ['apple', 'banana', 'grapes', 'pear']
 for count, value in enumerate(my_list, 1):

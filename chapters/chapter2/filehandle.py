@@ -1,20 +1,20 @@
-""" file reading  """
+""""""""""""""""""""""""" file reading """""""""""""""""""""""""
 
-fileR = open('demo.txt', 'r')
+file_read = open('demo.txt', 'r')
 
-fileR = fileR.read(10)
+file_read = file_read.read(10)
 
-tel = fileR.tell()
+tel = file_read.tell()
 print(tel)
 
-# sec = fileR.tell()
+# sec = file_read.tell()
 
 # print(sec)
 
-# fileR.close()
+# file_read.close()
 
 
-""" file writting  """
+""""""""""""""""""""""""" file writting """""""""""""""""""""""""
 
 # filew = open('demo.txt', 'w' )
 
@@ -22,7 +22,7 @@ print(tel)
 
 # filew.close()
 
-""" file updating """
+""""""""""""""""""""""""" file updating """""""""""""""""""""""""
 
 # fileUp = open('demo.txt', 'a')
 
