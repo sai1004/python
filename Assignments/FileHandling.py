@@ -1,4 +1,4 @@
-""" 1.Search particular word in file, word should be taken from user input. """
+""" 1.Search for particular word in file, word should be taken from user input. """
 word = open('demo.txt', 'r')
 
 # chunks The para/sentence into words and stores as elements in list format
