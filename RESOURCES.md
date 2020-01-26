@@ -8,5 +8,4 @@ https://pysnakeblog.blogspot.com/2019/11/webscraping-json-data-using-python.html
 
 https://docs.scipy.org/doc/numpy/user/quickstart.html
 
-
 https://pysnakeblog.blogspot.com/2019/09/top-40-python-string-processing-in.html?m=1
