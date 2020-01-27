@@ -1,5 +1,5 @@
 """"""""""""""""""""""""" tuples """""""""""""""""""""""""
-# tuples are imuteable in python that mean item in obj cannot be changed
+# tuples are imuteable in python that mean item in obj cannot be changed, Python Tuple is used to store the sequence of immutable python objects.
 
 tuple1 = ('hello', 'worl')
 
@@ -13,12 +13,20 @@ tuple1 = ('hello', 'worl')
 
 # set() funtion
 
-# profile1 = {
-#     "name":"kiarn",
-#     "email":"kiran@gmail.com"
-# }
+T1 = (101, "Ayush", 22)
 
-# profile2 = {
-#         "name":"sam",
-#     "email":"sammy@gmail.com"
-# }
+T2 = ("Apple", "Banna", "Orange")
+print(T1)
+print(T2)
+
+print(T1, T2)
+
+itterTupple = (10, 20, 30, 40, 50, 60, 70, 80, 90)
+
+print(itterTupple)
+
+count = 0
+
+for i in itterTupple:
+    print(f"itterTupple[{count}] = {i}")
+

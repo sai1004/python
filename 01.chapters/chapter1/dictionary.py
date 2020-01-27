@@ -39,7 +39,17 @@ for item in shopping:
 print(total)
 
 
- 
+
+# profile1 = {
+#     "name":"kiarn",
+#     "email":"kiran@gmail.com"
+# }
+
+# profile2 = {
+#         "name":"sam",
+#     "email":"sammy@gmail.com"
+# }
+
 
 
 
@@ -76,3 +86,5 @@ for number in fav_nums.values():
 dict1 = {1: 2, 3: 4}
 for k, v in dict1.items():
     print(v)
+
+

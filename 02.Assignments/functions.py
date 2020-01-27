@@ -1,3 +1,4 @@
+
 # Problem 6: write a program that extracts only +ive numbers from a list.
 # Example:
 #numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
@@ -79,24 +80,53 @@ print(decrypt())
 
 # Install following two packages before executing the code below
 
-# pip install beautifulsoup4  
+# pip install beautifulsoup4
 
 # pip install google
 
-try: 
+try:
 
-  from googlesearch import search 
+    from googlesearch import search
 
-except ImportError: 
+except ImportError:
 
-  print("No module named 'google' found") 
+    print("No module named 'google' found")
 
-# to search 
+# to search
 
 query = "python for engineers Blog"
 
-for j in search(query, tld="co.in", num=10, stop=1, pause=2): 
+for j in search(query, tld="co.in", num=10, stop=1, pause=2):
 
-  print(j) 
+    print(j)
 
 
+# Problem 8:  Suppose we have two lists L1 and L2 that contain integers which are sorted in ascending order.
+# Create a function merge that gets these lists as parameters and returns a new sorted list L that has all
+# the elements of L1 and L2. So, len(L) should equal to len(L1)+len(L2). Do this using the fact that both
+# lists are already sorted. You can’t use the sorted function or the sort method in implementing the merge method.
+# You can however use these functions in the main function for creating inputs to the merge function.
+
+# Note: In Python argument lists are passed by reference to the function, they are not copied! Make sure you don’t
+# modify the original lists of the caller.
+
+L1 = [0, 10, 30, 40, 50]
+
+L2 = [60, 33, -55, -44, -22]
+
+
+def merge(L1, L2):
+    L = []
+    sorting = L1 + L2
+    while sorting:
+        minimum = sorting[0]
+        for x in sorting:
+            if x < minimum:
+                minimum = x
+        L.append(minimum)
+        sorting.remove(minimum)
+
+    return L
+
+
+print(merge(L1, L2))
