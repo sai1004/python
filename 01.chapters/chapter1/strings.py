@@ -228,3 +228,28 @@ print('The point values are {0[0]} and {0[1]}'.format(point))
 
 
 print(f"{point}")
+
+
+iamstring = " yes i am string   "
+
+print(iamstring.capitalize())
+
+print(iamstring.count('i'))
+
+print(iamstring.endswith('g'))
+
+print(iamstring.index('a'))
+
+print(iamstring.join(" - "))
+
+print(iamstring.format())
+
+print(iamstring.strip())
+
+print(iamstring.replace('am', 'you'))
+
+print(iamstring * 5)
+
+print(iamstring.partition("am"))
+
+print(iamstring.rsplit())
