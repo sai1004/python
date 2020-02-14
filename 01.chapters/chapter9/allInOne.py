@@ -60,6 +60,6 @@ print(locals())
 
 """ How will you remove a duplicate element from a list """
 
-demo_list = [1,2,1,3,4,2]
+demo_list = [1, 2, 1, 3, 4, 2]
 
 print(set(demo_list))

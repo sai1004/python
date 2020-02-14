@@ -10,5 +10,6 @@ https://docs.scipy.org/doc/numpy/user/quickstart.html
 
 https://pysnakeblog.blogspot.com/2019/09/top-40-python-string-processing-in.html?m=1
 
-
 https://www.thepythoncode.com/article/compress-decompress-files-tarfile-python
+
+https://data-flair.training/blogs/top-python-interview-questions-answer/?fbclid=IwAR217ErNi_D_7S5sdDPFdUYB1lwNU4oHWPL0NrZ741ozjLun0MzLsBTpq0U
