@@ -68,3 +68,34 @@ divIp = ip.split('.')
 
 for i in divIp:
     print(bin(int(i)).replace("0b", ''), end='.')
+
+    
+    
+    
+    
+    
+
+
+import random # biblíoteca para gerar sequências aleatórias.  
+
+import string # biblíoteca para tratamento de caractéres do tipo string. 
+
+i = input("enter the password to be encrypted --> ".upper())
+
+password = '' # Variável que armazena a nova senha 
+
+# Percorre uma range com o valor de caractéres do texto.
+
+for a in range(len(i)): 
+
+    # Pega o caractére digítado e gera uma sequência aleatória com letras maiúscula,minúsculas e numeros.
+
+    new = random.choice(i + string.hexdigits)    
+
+    password += new # adiciona a nova senha na variavel vazia. 
+
+print('---'*len(i))
+
+print('New password:',password)
+
+print('---'*len(i))    
