@@ -130,3 +130,27 @@ def merge(L1, L2):
 
 
 print(merge(L1, L2))
+
+
+
+
+
+
+
+
+def search(list,n):
+
+    for i in list:
+        if i== n:
+            print(n," is found at index ",
+            list.index(i)+1)
+            break
+    else:
+        print(n, " is not found, try Again")
+
+list= [19,5,22,18,2,6,0,100,9]
+
+
+n= int (input("Enter a number to search: "))
+
+search(list,n)
