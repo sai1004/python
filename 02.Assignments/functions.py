@@ -78,6 +78,8 @@ def decrypt():
 print(decrypt())
 
 
+"""   Google Search """
+
 # Install following two packages before executing the code below
 
 # pip install beautifulsoup4
@@ -132,11 +134,7 @@ def merge(L1, L2):
 print(merge(L1, L2))
 
 
-
-
-
-
-
+""" ---------------------------  Linear Search --------------------------- """
 
 def search(list,n):
 
