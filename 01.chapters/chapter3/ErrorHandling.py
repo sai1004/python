@@ -8,5 +8,5 @@ except:
     print("somthing Went Wrong")
 
 finally:
-    """ It will print After The Error handling it doesn't care about result error or correct """
+    """ It will print After The Error handling, it doesn't care about result error or correct """
     print(" I Printed after try And Exception ")
