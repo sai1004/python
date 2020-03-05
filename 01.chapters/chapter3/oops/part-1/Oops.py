@@ -3,7 +3,7 @@ OOPs Concepts:
 
     Object
     Class
-    Method
+    Constructor
     Inheritance
     Polymorphism
     Data Abstraction
@@ -19,18 +19,48 @@ OOPs Concepts:
 class Animal:
     def speak(self):
         print("Animal Speaking")
+
+
+'''
+
+ Constructor 
+ 
+class Profile:
+
+    def __init__(self,name,email,mobile):
+
+        self.name = name
+        self.email = email
+        self.mobile = mobile      
+ 
+ '''
+
+
+''' 
+inheritence 
+
+'''
+
+
+class Animal:
+
+    def speak(self):
+
+        print("animal Speaking")
+
 # child class Dog inherits the base class Animal
 
 
 class Dog(Animal):
+
     def bark(self):
-        print("dog barking")
+        print("dog Barking!")
 
 
-dog = Dog()
-dog.bark()
-dog.speak()
+pugDog = Dog()
 
+print(pugDog.bark())
+print(pugDog.speak())
 
 '''
 o/p:
@@ -40,7 +70,14 @@ Animal Speaking
 
 '''
 
-''' Constructor '''
+
+class Cat(Animal):
+
+    def Meoow(self):
+        print("cat Meow")
 
 
-''' inheritence '''
+cat = Cat()
+
+print(cat.Meoow())
+print(cat.speak())
