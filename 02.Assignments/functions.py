@@ -78,31 +78,6 @@ def decrypt():
 print(decrypt())
 
 
-"""   Google Search """
-
-# Install following two packages before executing the code below
-
-# pip install beautifulsoup4
-
-# pip install google
-
-try:
-
-    from googlesearch import search
-
-except ImportError:
-
-    print("No module named 'google' found")
-
-# to search
-
-query = "python for engineers Blog"
-
-for j in search(query, tld="co.in", num=10, stop=1, pause=2):
-
-    print(j)
-
-
 # Problem 8:  Suppose we have two lists L1 and L2 that contain integers which are sorted in ascending order.
 # Create a function merge that gets these lists as parameters and returns a new sorted list L that has all
 # the elements of L1 and L2. So, len(L) should equal to len(L1)+len(L2). Do this using the fact that both
@@ -136,19 +111,21 @@ print(merge(L1, L2))
 
 """ ---------------------------  Linear Search --------------------------- """
 
-def search(list,n):
+
+def find_num(list, n):
 
     for i in list:
-        if i== n:
-            print(n," is found at index ",
-            list.index(i)+1)
+        if i == n:
+            print(n, " is found at index ",
+                  list.index(i)+1)
             break
     else:
         print(n, " is not found, try Again")
 
-list= [19,5,22,18,2,6,0,100,9]
+
+list = [19, 5, 22, 18, 2, 6, 0, 100, 9]
 
 
-n= int (input("Enter a number to search: "))
+n = int(input("Enter a number to search: "))
 
-search(list,n)
+find_num(list, n)

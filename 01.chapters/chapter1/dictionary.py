@@ -21,25 +21,6 @@ print(fruits[1])
 # print(x)
 
 
-# shopping cart Selection
-
-
-price = {"apple": 20, "biscuits": 50, "kiwi": 25}
-
-# print(price['apple'])
-
-
-Shopping = [int(input('please select items you want to buy:' " "))]
-
-total = 0.00
-
-for item in shopping:
-    total += price(item)
-
-print(total)
-
-
-
 # profile1 = {
 #     "name":"kiarn",
 #     "email":"kiran@gmail.com"
@@ -49,8 +30,6 @@ print(total)
 #         "name":"sam",
 #     "email":"sammy@gmail.com"
 # }
-
-
 
 
 """"""""""""""""""""""""" Dicitionaries  """""""""""""""""""""""""
@@ -86,5 +65,3 @@ for number in fav_nums.values():
 dict1 = {1: 2, 3: 4}
 for k, v in dict1.items():
     print(v)
-
-
