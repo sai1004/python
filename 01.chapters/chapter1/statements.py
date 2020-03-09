@@ -40,7 +40,7 @@ elif age < 18:
 
 else:
     ticketPrice = 15
-    print(" Ticket For Age Less Than 18: {}".format(ticketPrice))
+    print(" Ticket For Age Greater Than 18: {}".format(ticketPrice))
 
 
 """"""""""""""""""""""""" user Input  """""""""""""""""""""""""
