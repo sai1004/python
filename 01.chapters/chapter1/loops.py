@@ -99,6 +99,15 @@ while counter <= 5:
     counter = counter + 1
 
 
+""" For Fun """
+
+Hacking = True
+
+while Hacking == True:
+
+    print('0110101010111100101010111110100100100101010001', end="")
+
+
 """"""""""""""""""""""""" List Comprehense: """""""""""""""""""""""""
 
 

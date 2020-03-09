@@ -50,18 +50,6 @@ def add_to(num, target=[]):
 
 """"""""""""""""""""""""" Convert Decimal to binary """""""""""""""""""""""""
 
-
-# def decToBin(ip):
-
-#     binary = ''
-
-#     divIp = ip.split()
-#     print(divIp)
-
-
-# print(decToBin('192.168.31.1'))
-
-
 ip = '192.168.31.1'
 
 divIp = ip.split('.')
@@ -91,13 +79,3 @@ print('---'*len(i))
 print('New password:',password)
 
 print('---'*len(i))    
-
-
-""" For Fun """
-
-Hacking = True
-
-while Hacking == True:
-
-  print('0110101010111100101010111110100100100101010001',end="")
- 
