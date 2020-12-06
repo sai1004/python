@@ -3,6 +3,10 @@
 # 1.1. Usage of *args
 
 
+import string
+import random
+
+
 def test_var_args(f_arg, *argv):
     print("first normal arg:", f_arg)
     for arg in argv:
@@ -56,26 +60,23 @@ divIp = ip.split('.')
 
 for i in divIp:
     print(bin(int(i)).replace("0b", ''), end='.')
-    
+
 
 """  password gen    """
-    
-import random    
 
-import string  
 
 i = input("enter the password to be encrypted --> ".upper())
 
-password = '' 
+password = ''
 
-for a in range(len(i)):  
+for a in range(len(i)):
 
-    new = random.choice(i + string.hexdigits)    
+    new = random.choice(i + string.hexdigits)
 
-    password += new  
+    password += new
 
 print('---'*len(i))
 
-print('New password:',password)
+print('New password:', password)
 
-print('---'*len(i))    
+print('---'*len(i))
