@@ -16,7 +16,7 @@ import qrcode
 # """"""""""""""" Generate QR Code """""""""""""""
 
 # example data
-data = "'Welcome To Simplified Python'"
+data = "https://asianpestservices.com/"
 # output file name
 filename = "site.png"
 # generate qr code
@@ -42,7 +42,7 @@ if bbox is not None:
         # draw all lines
         point1 = tuple(bbox[i][0])
         point2 = tuple(bbox[(i+1) % n_lines][0])
-        cv2.line(img, point1, point2, color=(255, 0, 0), thickness=2)
+        # cv2.line(img, point1, point2, color=(255, 0, 0), thickness=2)
     # display the result
     cv2.imshow("img", img)
     cv2.waitKey(0)
