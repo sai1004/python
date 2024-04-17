@@ -13,3 +13,5 @@ https://pysnakeblog.blogspot.com/2019/09/top-40-python-string-processing-in.html
 https://www.thepythoncode.com/article/compress-decompress-files-tarfile-python
 
 https://data-flair.training/blogs/top-python-interview-questions-answer/?fbclid=IwAR217ErNi_D_7S5sdDPFdUYB1lwNU4oHWPL0NrZ741ozjLun0MzLsBTpq0U
+
+https://medium.com/analytics-vidhya/getting-started-with-github-api-dc7057e2834d
